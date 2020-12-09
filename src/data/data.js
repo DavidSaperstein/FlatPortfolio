@@ -2,11 +2,29 @@ export const projectsData = [
   {
     id: 1,
     title: 'Magic Draft Reference',
-    description: '',
-    githubLink: '',
-    deployedLink: '',
+    description: 'This project was intended to practice routing and accessing an external API.  The app is meant to function as a quick reference for someone playing in an MTG draft.',
+    screenshot: '',
+    githubLink: 'https://github.com/DavidSaperstein/MagicDraftReference',
+    deployedLink: 'https://draft-reference.netlify.app/',
+    stack: [],    
+  },
+  {
+    id: 2,
+    title: 'React Dice',
+    description: 'A purely front-end class project used to practice changing state.  My future goal is to turn it into a solo game of Yatzhee that saves in local storage.',
+    screenshot: '',
+    githubLink: 'https://github.com/DavidSaperstein/react-dice',
+    deployedLink: 'https://onedaythiscouldbeyahtzee.netlify.app/',
     stack: [],
-    
+  },
+  {
+    id: 3,
+    title: 'Clone Zen Garden',
+    description: 'A CSS training project that is a copy-cat of this site: http://www.csszengarden.com/',
+    screenshot: '',
+    githubtLink: 'https://github.com/DavidSaperstein/copycat-zen-garden',
+    deployedLink: 'https://copycatzengarden.netlify.app/',
+    stack: [],
   }
 ]
 
