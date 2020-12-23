@@ -74,6 +74,21 @@ export const iconsThanks = [
     id: 8,
     title: 'GitHub',
     thanks: '<a href="https://iconscout.com/icons/github" target="_blank">Github Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank">Icon Mafia</a>'
+  },
+  {
+    id: 9,
+    title: 'Gmail',
+    thanks: '<a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>'
+  },
+  {
+    id: 10,
+    title: 'Phone',
+    thanks: '<a href="https://www.flaticon.com/free-icon/mobile-phone_3617011?term=phone&page=2&position=14&related_item_id=3617011" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>'
+  },
+  {
+    id: 11,
+    title: 'Location',
+    thanks: '<a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>'
   }
 
 ]
