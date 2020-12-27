@@ -1,9 +1,19 @@
+import magicDraftReference1 from '../assets/magicDraftReference-1.png'
+import magicDraftReference2 from '../assets/magicDraftReference-2.png'
+import magicDraftReference3 from '../assets/magicDraftReference-3.png'
+import yahtzee1 from '../assets/onedaythiscouldbeyahtzee-1.png'
+import yahtzee2 from '../assets/onedaythiscouldbeyahtzee-1.png'
+import yahtzee3 from '../assets/onedaythiscouldbeyahtzee-1.png'
+import copycat1 from '../assets/copycatzengarden.png'
+
+
+
 export const projectsData = [
   {
     id: 1,
     title: 'Magic Draft Reference',
     description: 'This project was intended to practice routing and accessing an external API.  The app is meant to function as a quick reference for someone playing in an MTG draft.',
-    screenshots: ['../src/assets/magicDraftReference-1.png', '../src/assets/magicDraftReference-2.png', '../src/assets/magicDraftReference-3.png']
+    screenshots: [magicDraftReference1, magicDraftReference2, magicDraftReference3],
     githubLink: 'https://github.com/DavidSaperstein/MagicDraftReference',
     deployedLink: 'https://draft-reference.netlify.app/',
     stack: [],    
@@ -12,7 +22,7 @@ export const projectsData = [
     id: 2,
     title: 'React Dice',
     description: 'A purely front-end class project used to practice changing state.  My future goal is to turn it into a solo game of Yatzhee that saves in local storage.',
-    screenshot: ['../src/assets/onedaythiscouldbeyahtzee-1.png', '../src/assets/onedaythiscouldbeyahtzee-2.png', '../src/assets/onedaythiscouldbeyahtzee-3.png'],
+    screenshots: [yahtzee1, yahtzee2, yahtzee3],
     githubLink: 'https://github.com/DavidSaperstein/react-dice',
     deployedLink: 'https://onedaythiscouldbeyahtzee.netlify.app/',
     stack: [],
@@ -21,7 +31,7 @@ export const projectsData = [
     id: 3,
     title: 'Clone Zen Garden',
     description: 'A CSS training project that is a copy-cat of this site: http://www.csszengarden.com/',
-    screenshot: ['../src/assets/copycatzengarden.png'],
+    screenshots: [copycat1],
     githubtLink: 'https://github.com/DavidSaperstein/copycat-zen-garden',
     deployedLink: 'https://copycatzengarden.netlify.app/',
     stack: [],

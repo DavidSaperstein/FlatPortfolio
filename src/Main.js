@@ -1,18 +1,23 @@
 import React from 'react'
-import cssLogo from '../src/assets/css3.png'
-import expressLogo from '../src/assets/express.png'
-import githubLogo from '../src/assets/github.png'
-import htmlLogo from '../src/assets/html5.png'
-import javascriptLogo from '../src/assets/javascript.png'
-import mongodbLogo from '../src/assets/mongodb.png'
-import nodeLogo from '../src/assets/node-js.png'
-import reactLogo from '../src/assets/react.png'
-import vscodeLogo from '../src/assets/vscode.png'
+
+import {projectsData} from './data/data.js'
+
+import ProjectCard from './ProjectCard'
+
+import cssLogo from './assets/css3.png'
+import expressLogo from './assets/express.png'
+import githubLogo from './assets/github.png'
+import htmlLogo from './assets/html5.png'
+import javascriptLogo from './assets/javascript.png'
+import mongodbLogo from './assets/mongodb.png'
+import nodeLogo from './assets/node-js.png'
+import reactLogo from './assets/react.png'
+import vscodeLogo from './assets/vscode.png'
 
 
 const Main = (props) => {
   return (
-    <div>
+    <div className='main-container'>
       <div className="about">
         <h1>David Saperstein</h1>
         <h2>Full Stack Developer</h2>
@@ -20,7 +25,7 @@ const Main = (props) => {
         <p>When not coding, I can be found at your local game store playing Magic: the Gathering or some board games.  I have an endless list of fantasy novel recommendations and will tell you all of them if you ask.  If I'm not doing those things, I'm probably selling geek themed bathbombs at local conventions.</p>
       </div>
 
-      <div>
+      <div className='skills'>
         <h1>&lt; Skills &gt;</h1>
         <div className='skills-container'>
           <img src={cssLogo} alt='cssLogo'/>
@@ -51,12 +56,30 @@ const Main = (props) => {
         <div className='databases-container'>
           <p>MongoDB</p>
         </div>
-
+      </div>
+      
+      <div className='projects'>
         <h1>&lt; Projects &gt;</h1>
         <div className='projects-container'>
-          {/* Projects list component goes here           */}
+          {projectsData.map(project => {
+            console.log(project)
+            return (
+             <ProjectCard 
+                key={project.id}
+                id={project.id}
+                title={project.title}
+                description={project.description}
+                screenshots={project.screenshots}
+                githubLink={project.githubLink}
+                deployedLink={project.deployedLink}
+                stack={project.stack}
+              />
+            )
+          })}
         </div>
+      </div>
         
+      <div className='contact'>
         <h1>&lt; Contact &gt;</h1>
         <p>d.h.saperstein@gmail.com</p>
         <p>954-696-8620</p>
