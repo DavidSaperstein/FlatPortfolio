@@ -1,14 +1,14 @@
 import React from 'react'
 
 import './styles.css'
-// import Navbar from './Navbar'
+import Sidebar from './Sidebar'
 import Main from './Main'
 // import Footer from './Footer'
 
 const App = () => {
   return (
-    <div>
-      {/* <Navbar /> */}
+    <div className='grid-container'>
+      <Sidebar />
       <Main />
       {/* <Footer /> */}
     </div>

@@ -99,6 +99,10 @@ export const iconsThanks = [
     id: 11,
     title: 'Location',
     thanks: '<a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>'
+  },
+  {
+    id: 12,
+    title: 'Resume',
+    thanks: '<a href="https://iconscout.com/icons/curriculum-vitae" target="_blank">Curriculum Vitae Icon</a> by <a href="https://iconscout.com/contributors/dinosoftlabs">Dinosoft Lab</a> on <a href="https://iconscout.com">Iconscout</a>'
   }
-
 ]

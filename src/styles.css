@@ -7,7 +7,34 @@ body {
   background-color: #419298;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 5.5fr;
+}
+
+
+.sidebar-container {
+  grid-column: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: purple;
+}
+
+.me {
+  height: 12vw;
+  width: 12vw;
+  border-radius: 50%;
+}
+
+.sidebar-logos {
+  height: 3vw;
+  width: 3vw;
+}
+
 .main-container {
+  grid-column: 2;
   display: flex;
   justify-content: center;
   align-items: center;
