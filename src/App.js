@@ -7,7 +7,7 @@ import Main from './Main'
 
 const App = () => {
   return (
-    <div className='grid-container'>
+    <div className='wrapper'>
       <Sidebar />
       <Main />
       {/* <Footer /> */}
