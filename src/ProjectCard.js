@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 const ProjectCard = (props) => {
   return (
     <div className='projects'>
-      <Link to={props.deployedLink}>
+      <a href={props.deployedLink} target="_blank">
         <h2>{props.title}</h2>
-      </Link>
-      <Link to ={props.deployedLink}>
+      </a>
+      <a href={props.deployedLink} target="_blank">
         <img className='screenshots' src={props.screenshots[0]} alt={props.title}/>
-      </Link>
+      </a>
       <p>{props.description}</p>
     </div>
   )

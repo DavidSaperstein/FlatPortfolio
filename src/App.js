@@ -1,17 +1,20 @@
 import React from 'react'
 
 import './styles.css'
-import Sidebar from './Sidebar'
+import Header from './Header'
 import Main from './Main'
-// import Footer from './Footer'
+import Footer from './Footer'
 
 const App = () => {
   return (
+    <>
+    <div className="app-background"/>
     <div className='wrapper'>
-      <Sidebar />
+      <Header />
       <Main />
-      {/* <Footer /> */}
+      <Footer />
     </div>
+    </>
   )
 }
 
