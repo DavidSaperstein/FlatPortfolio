@@ -56,19 +56,19 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 70px;
   display: flex;
   justify-content: center;
   width: 100vw;
   background-color: #2f3e46;
   box-shadow: rgba(0,0,0,0.5) 0 -3px 3px;
+  padding: 5px 0;
 }
 
 .sidebar-logos-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 20vw;
+  width: 40vw;
 }
 
 .links-and-me {
@@ -77,6 +77,11 @@ body {
   align-items: center;
   width: 100%;
   color: ivory;
+}
+
+.links-and-me > a:hover {
+  text-shadow:#dbe7e4 0 0 5px;
+  cursor: pointer;
 }
 
 .name, .headers {
@@ -97,8 +102,8 @@ body {
 }
 
 .sidebar-logos {
-  height: calc(3vw);
-  width: 3vw;
+  height: 5vh;
+  width: calc(5vh);
   filter: invert(100%) hue-rotate(200deg);
 }
 
@@ -303,8 +308,6 @@ body {
   }
 
   .sidebar-logos {
-    height: calc(10vw);
-    width: 10vw;
     margin: 0 10px;
     filter: drop-shadow(rgba(255, 255, 255, 0.5) 2px 2px 3px) invert(100%) hue-rotate(200deg);
   }
