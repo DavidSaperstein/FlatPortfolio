@@ -3,6 +3,7 @@ import React from 'react'
 import cv from './assets/curriculum-vitae.png'
 import linkedinLogo from './assets/linkedin.png'
 import githubLogo from './assets/github.png'
+import resume from './assets/resume.pdf'
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
         <a href='https://github.com/DavidSaperstein' target='_blank'>
           <img src={githubLogo} alt={'githubLogo'} className='sidebar-logos'/>
         </a>
-        <a download href='https://docs.google.com/uc?export=download&id=1pMsDyfj4p-qfiMkxNqpmGUEt-2NdHIYMWiHT6qTbg1s'>
+        <a download href={resume}>
           <img src={cv} alt={'cv'} className='sidebar-logos'/>
         </a>
       </div>

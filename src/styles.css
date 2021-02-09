@@ -110,10 +110,6 @@ body {
   flex-direction: column;
 }
 
-.section-container {
-  /* padding-top: 10vh; */
-}
-
 .about {
   display: flex;
   flex-direction: column;
@@ -220,10 +216,6 @@ body {
   width: 300px;
   height: 200px;
   border: 1px solid black;
-}
-
-.contact {
-  /* margin-top: 80px; */
 }
 
 .contact-info {
