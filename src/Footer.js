@@ -9,10 +9,10 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='sidebar-logos-container'>
-        <a href='https://www.linkedin.com/in/david-saperstein-89422165/' target='_blank'>
+        <a href='https://www.linkedin.com/in/david-saperstein-89422165/' target='_blank' rel='noreferrer'>
           <img src={linkedinLogo} alt={'linkedinLogo'} className='sidebar-logos'/>
         </a>
-        <a href='https://github.com/DavidSaperstein' target='_blank'>
+        <a href='https://github.com/DavidSaperstein' target='_blank' rel='noreferrer'>
           <img src={githubLogo} alt={'githubLogo'} className='sidebar-logos'/>
         </a>
         <a download href={resume}>
