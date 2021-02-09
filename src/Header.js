@@ -14,7 +14,7 @@ const Header = () => {
           <h2>Skills</h2>
         </Link>
         <img src={me} alt={'Me'} className='me'/>
-        <Link activeClass='active' to='projects' spy={true} smooth={true}>
+        <Link activeClass='active' to='projects-section' spy={true} smooth={true}>
           <h2>Projects</h2>
         </Link>
         <Link activeClass='active' to='contact' spy={true} smooth={true}>
